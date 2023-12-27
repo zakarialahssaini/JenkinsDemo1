@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Steps" class="navigator-link">
+              <span class="suite-name border-failed">Steps</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Steps" class="navigator-link ">
+                    <span>C:\Users\info\eclipse-workspace\AllureReportDemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Steps" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Steps" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Steps" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Steps" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Steps" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Steps" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 7 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Steps" class="hide-methods failed suite-Steps"> (hide)</a> <!-- hide-methods failed suite-Steps -->
+                      <a href="#" panel-name="suite-Steps" class="show-methods failed suite-Steps"> (show)</a> <!-- show-methods failed suite-Steps -->
+                    </span>
+                    <div class="method-list-content failed suite-Steps">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.GoogleSearch" class="method navigator-link" hash-for-method="hits_enter">hits_enter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.RegistreSteps" class="method navigator-link" hash-for-method="the_user_clicks_on_the_create_account_button">the_user_clicks_on_the_create_account_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.LoginSteps" class="method navigator-link" hash-for-method="the_user_clicks_the_login_button">the_user_clicks_the_login_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.LoginSteps" class="method navigator-link" hash-for-method="the_user_enters_email_and_password">the_user_enters_email_and_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.RegistreSteps" class="method navigator-link" hash-for-method="the_user_enters_their_email_password_and_confirms_the_password">the_user_enters_their_email_password_and_confirms_the_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.RegistreSteps" class="method navigator-link" hash-for-method="the_user_enters_their_first_name_and_last_name">the_user_enters_their_first_name_and_last_name</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.GoogleSearch" class="method navigator-link" hash-for-method="user_enters_a_text_in_search_box">user_enters_a_text_in_search_box</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Steps -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Steps" class="hide-methods passed suite-Steps"> (hide)</a> <!-- hide-methods passed suite-Steps -->
+                      <a href="#" panel-name="suite-Steps" class="show-methods passed suite-Steps"> (show)</a> <!-- show-methods passed suite-Steps -->
+                    </span>
+                    <div class="method-list-content passed suite-Steps">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.GoogleSearch" class="method navigator-link" hash-for-method="browser_is_open">browser_is_open</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.MyTest" class="method navigator-link" hash-for-method="myTestMethod">myTestMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.RegistreSteps" class="method navigator-link" hash-for-method="the_browser_is_open">the_browser_is_open</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.RegistreSteps" class="method navigator-link" hash-for-method="the_user_is_navigated_to_the_home_page">the_user_is_navigated_to_the_home_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.LoginSteps" class="method navigator-link" hash-for-method="the_user_is_on_the_login_page">the_user_is_on_the_login_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.RegistreSteps" class="method navigator-link" hash-for-method="the_user_is_on_the_website">the_user_is_on_the_website</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.RegistreSteps" class="method navigator-link" hash-for-method="the_user_navigates_to_the_registration_page">the_user_navigates_to_the_registration_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.LoginSteps" class="method navigator-link" hash-for-method="the_user_should_not_navigate_to_the_home_page">the_user_should_not_navigate_to_the_home_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.GoogleSearch" class="method navigator-link" hash-for-method="user_is_navigated_to_search_results">user_is_navigated_to_search_results</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Steps" title="com.sdetadda.allure.GoogleSearch" class="method navigator-link" hash-for-method="user_is_on_google_search_page">user_is_on_google_search_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Steps -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Steps" class="panel Steps">
+          <div class="suite-Steps-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sdetadda.allure.LoginSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_user_clicks_the_login_button">
+                  </a> <!-- the_user_clicks_the_login_button -->
+                  <span class="method-name">the_user_clicks_the_login_button</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;objects.LoginPage.loginButton()&quot; because &quot;this.loginpage&quot; is null
+	at com.sdetadda.allure.LoginSteps.the_user_clicks_the_login_button(LoginSteps.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_user_enters_email_and_password">
+                  </a> <!-- the_user_enters_email_and_password -->
+                  <span class="method-name">the_user_enters_email_and_password</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [the_user_enters_email_and_password] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Steps-class-failed -->
+          <div class="suite-Steps-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sdetadda.allure.RegistreSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_user_clicks_on_the_create_account_button">
+                  </a> <!-- the_user_clicks_on_the_create_account_button -->
+                  <span class="method-name">the_user_clicks_on_the_create_account_button</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;//*[@id=&quot;form-validate&quot;]/div/div[1]/button/span&apos;]&quot;}
+  (Session info: chrome=120.0.6099.63)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de934ae99ba6a15c1374f40c5b2a63c5, findElement {using=name, value=//*[@id=&quot;form-validate&quot;]/div/div[1]/button/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.63, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\info\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61063/devtoo..., se:cdpVersion: 120.0.6099.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de934ae99ba6a15c1374f40c5b2a63c5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sdetadda.allure.RegistreSteps.the_user_clicks_on_the_create_account_button(RegistreSteps.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_user_enters_their_email_password_and_confirms_the_password">
+                  </a> <!-- the_user_enters_their_email_password_and_confirms_the_password -->
+                  <span class="method-name">the_user_enters_their_email_password_and_confirms_the_password</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;email&apos;]&quot;}
+  (Session info: chrome=120.0.6099.63)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de934ae99ba6a15c1374f40c5b2a63c5, findElement {using=name, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.63, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\info\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61063/devtoo..., se:cdpVersion: 120.0.6099.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de934ae99ba6a15c1374f40c5b2a63c5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sdetadda.allure.RegistreSteps.the_user_enters_their_email_password_and_confirms_the_password(RegistreSteps.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_user_enters_their_first_name_and_last_name">
+                  </a> <!-- the_user_enters_their_first_name_and_last_name -->
+                  <span class="method-name">the_user_enters_their_first_name_and_last_name</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;firstname&apos;]&quot;}
+  (Session info: chrome=120.0.6099.63)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de934ae99ba6a15c1374f40c5b2a63c5, findElement {using=name, value=firstname}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.63, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\info\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61063/devtoo..., se:cdpVersion: 120.0.6099.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de934ae99ba6a15c1374f40c5b2a63c5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sdetadda.allure.RegistreSteps.the_user_enters_their_first_name_and_last_name(RegistreSteps.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Steps-class-failed -->
+          <div class="suite-Steps-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sdetadda.allure.GoogleSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hits_enter">
+                  </a> <!-- hits_enter -->
+                  <span class="method-name">hits_enter</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#APjFqb&quot;}
+  (Session info: chrome=120.0.6099.63)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90ec9d108e5bbcef0d7ddcbb446e46cc, findElement {using=id, value=APjFqb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.63, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\info\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60992/devtoo..., se:cdpVersion: 120.0.6099.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90ec9d108e5bbcef0d7ddcbb446e46cc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sdetadda.allure.GoogleSearch.hits_enter(GoogleSearch.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_enters_a_text_in_search_box">
+                  </a> <!-- user_enters_a_text_in_search_box -->
+                  <span class="method-name">user_enters_a_text_in_search_box</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#APjFqb&quot;}
+  (Session info: chrome=120.0.6099.63)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90ec9d108e5bbcef0d7ddcbb446e46cc, findElement {using=id, value=APjFqb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.63, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\info\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60992/devtoo..., se:cdpVersion: 120.0.6099.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90ec9d108e5bbcef0d7ddcbb446e46cc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.sdetadda.allure.GoogleSearch.user_enters_a_text_in_search_box(GoogleSearch.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Steps-class-failed -->
+          <div class="suite-Steps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sdetadda.allure.LoginSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_user_is_on_the_login_page">
+                  </a> <!-- the_user_is_on_the_login_page -->
+                  <span class="method-name">the_user_is_on_the_login_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_user_should_not_navigate_to_the_home_page">
+                  </a> <!-- the_user_should_not_navigate_to_the_home_page -->
+                  <span class="method-name">the_user_should_not_navigate_to_the_home_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Steps-class-passed -->
+          <div class="suite-Steps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sdetadda.allure.RegistreSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_browser_is_open">
+                  </a> <!-- the_browser_is_open -->
+                  <span class="method-name">the_browser_is_open</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_user_is_navigated_to_the_home_page">
+                  </a> <!-- the_user_is_navigated_to_the_home_page -->
+                  <span class="method-name">the_user_is_navigated_to_the_home_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_user_is_on_the_website">
+                  </a> <!-- the_user_is_on_the_website -->
+                  <span class="method-name">the_user_is_on_the_website</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_user_navigates_to_the_registration_page">
+                  </a> <!-- the_user_navigates_to_the_registration_page -->
+                  <span class="method-name">the_user_navigates_to_the_registration_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Steps-class-passed -->
+          <div class="suite-Steps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sdetadda.allure.GoogleSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="browser_is_open">
+                  </a> <!-- browser_is_open -->
+                  <span class="method-name">browser_is_open</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_navigated_to_search_results">
+                  </a> <!-- user_is_navigated_to_search_results -->
+                  <span class="method-name">user_is_navigated_to_search_results</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_on_google_search_page">
+                  </a> <!-- user_is_on_google_search_page -->
+                  <span class="method-name">user_is_on_google_search_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Steps-class-passed -->
+          <div class="suite-Steps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sdetadda.allure.MyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="myTestMethod">
+                  </a> <!-- myTestMethod -->
+                  <span class="method-name">myTestMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Steps-class-passed -->
+        </div> <!-- panel Steps -->
+        <div panel-name="test-xml-Steps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\info\eclipse-workspace\AllureReportDemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Steps&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sdetadda.allure.MyTest&quot;/&gt;
+      &lt;class name=&quot;com.sdetadda.allure.GoogleSearch&quot;/&gt;
+      &lt;class name=&quot;com.sdetadda.allure.LoginSteps&quot;/&gt;
+      &lt;class name=&quot;com.sdetadda.allure.RegistreSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Steps --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Steps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Steps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Steps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Steps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Steps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Steps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Steps');
+function tableData_Steps() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'the_user_is_on_the_login_page')
+data.setCell(0, 2, 'com.sdetadda.allure.LoginSteps')
+data.setCell(0, 3, 8980);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'the_user_is_on_the_website')
+data.setCell(1, 2, 'com.sdetadda.allure.RegistreSteps')
+data.setCell(1, 3, 4876);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'the_browser_is_open')
+data.setCell(2, 2, 'com.sdetadda.allure.RegistreSteps')
+data.setCell(2, 3, 2948);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'the_user_navigates_to_the_registration_page')
+data.setCell(3, 2, 'com.sdetadda.allure.RegistreSteps')
+data.setCell(3, 3, 2557);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'browser_is_open')
+data.setCell(4, 2, 'com.sdetadda.allure.GoogleSearch')
+data.setCell(4, 3, 1917);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'user_is_on_google_search_page')
+data.setCell(5, 2, 'com.sdetadda.allure.GoogleSearch')
+data.setCell(5, 3, 1789);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'the_user_should_not_navigate_to_the_home_page')
+data.setCell(6, 2, 'com.sdetadda.allure.LoginSteps')
+data.setCell(6, 3, 395);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'myTestMethod')
+data.setCell(7, 2, 'com.sdetadda.allure.MyTest')
+data.setCell(7, 3, 81);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'hits_enter')
+data.setCell(8, 2, 'com.sdetadda.allure.GoogleSearch')
+data.setCell(8, 3, 54);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'the_user_clicks_on_the_create_account_button')
+data.setCell(9, 2, 'com.sdetadda.allure.RegistreSteps')
+data.setCell(9, 3, 52);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'the_user_enters_their_first_name_and_last_name')
+data.setCell(10, 2, 'com.sdetadda.allure.RegistreSteps')
+data.setCell(10, 3, 42);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'the_user_enters_their_email_password_and_confirms_the_password')
+data.setCell(11, 2, 'com.sdetadda.allure.RegistreSteps')
+data.setCell(11, 3, 36);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'user_enters_a_text_in_search_box')
+data.setCell(12, 2, 'com.sdetadda.allure.GoogleSearch')
+data.setCell(12, 3, 28);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'user_is_navigated_to_search_results')
+data.setCell(13, 2, 'com.sdetadda.allure.GoogleSearch')
+data.setCell(13, 3, 20);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'the_user_clicks_the_login_button')
+data.setCell(14, 2, 'com.sdetadda.allure.LoginSteps')
+data.setCell(14, 3, 8);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'the_user_is_navigated_to_the_home_page')
+data.setCell(15, 2, 'com.sdetadda.allure.RegistreSteps')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'the_user_enters_email_and_password')
+data.setCell(16, 2, 'com.sdetadda.allure.LoginSteps')
+data.setCell(16, 3, 0);
+window.suiteTableData['Steps']= { tableData: data, tableDiv: 'times-div-Steps'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <div id="times-div-Steps">
+              </div> <!-- times-div-Steps -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Steps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Steps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Steps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Steps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sdetadda.allure.RegistreSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sdetadda.allure.MyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">myTestMethod</span>
+                <span class="method-start">4952 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sdetadda.allure.GoogleSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">browser_is_open</span>
+                <span class="method-start">5154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">hits_enter</span>
+                <span class="method-start">7085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">user_enters_a_text_in_search_box</span>
+                <span class="method-start">7155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_is_navigated_to_search_results</span>
+                <span class="method-start">7193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_is_on_google_search_page</span>
+                <span class="method-start">7220 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sdetadda.allure.LoginSteps</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">the_user_clicks_the_login_button</span>
+                <span class="method-start">9020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">the_user_is_on_the_login_page</span>
+                <span class="method-start">9049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">the_user_should_not_navigate_to_the_home_page</span>
+                <span class="method-start">18038 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sdetadda.allure.RegistreSteps</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">the_browser_is_open</span>
+                <span class="method-start">18438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">the_user_clicks_on_the_create_account_button</span>
+                <span class="method-start">21391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">the_user_enters_their_email_password_and_confirms_the_password</span>
+                <span class="method-start">21453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">the_user_enters_their_first_name_and_last_name</span>
+                <span class="method-start">21512 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">the_user_is_navigated_to_the_home_page</span>
+                <span class="method-start">21568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">the_user_is_on_the_website</span>
+                <span class="method-start">21575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">the_user_navigates_to_the_registration_page</span>
+                <span class="method-start">26456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29017 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

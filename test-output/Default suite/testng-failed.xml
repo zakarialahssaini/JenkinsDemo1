@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.sdetadda.allure.GoogleSearch">
+        <methods>
+          <include name="user_enters_a_text_in_search_box"/>
+          <include name="hits_enter"/>
+        </methods>
+      </class> <!-- com.sdetadda.allure.GoogleSearch -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

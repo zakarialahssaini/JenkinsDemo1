@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Steps]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.sdetadda.allure.LoginSteps">
+        <methods>
+          <include name="the_user_enters_email_and_password"/>
+          <include name="the_user_clicks_the_login_button"/>
+        </methods>
+      </class> <!-- com.sdetadda.allure.LoginSteps -->
+      <class name="com.sdetadda.allure.RegistreSteps">
+        <methods>
+          <include name="the_user_enters_their_email_password_and_confirms_the_password"/>
+          <include name="the_user_clicks_on_the_create_account_button"/>
+          <include name="setUp"/>
+          <include name="the_user_enters_their_first_name_and_last_name"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sdetadda.allure.RegistreSteps -->
+      <class name="com.sdetadda.allure.GoogleSearch">
+        <methods>
+          <include name="user_enters_a_text_in_search_box"/>
+          <include name="hits_enter"/>
+        </methods>
+      </class> <!-- com.sdetadda.allure.GoogleSearch -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Steps] -->

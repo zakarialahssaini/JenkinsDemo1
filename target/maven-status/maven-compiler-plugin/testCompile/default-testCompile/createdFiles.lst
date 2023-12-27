@@ -1,0 +1,6 @@
+com\sdetadda\allure\Login.class
+Object\ObjectCucumber.class
+com\sdetadda\allure\GoogleSearch.class
+com\sdetadda\allure\Hooks.class
+Runner\TestRunner.class
+com\sdetadda\allure\RegistreSteps.class
