@@ -1,4 +1,0 @@
-"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"","Test the login functionality","Check login invalid with invalid information","0","0","2","0","0"
-"","Test the registration functionality","Check registration success with valid information","0","0","1","0","0"
-"","feature to test google search functionality","validate google search is working","0","1","0","0","0"

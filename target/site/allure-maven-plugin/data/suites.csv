@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Dec 21 12:23:50 WAT 2023","Thu Dec 21 12:24:00 WAT 2023","10184","","Test the login functionality","","Check login invalid with invalid information","","Check login invalid with invalid information",""
-"passed","Thu Dec 21 12:24:00 WAT 2023","Thu Dec 21 12:24:20 WAT 2023","19795","","Test the login functionality","","Check login invalid with invalid information","","Check login invalid with invalid information",""
-"passed","Thu Dec 21 12:24:20 WAT 2023","Thu Dec 21 12:24:32 WAT 2023","11392","","Test the registration functionality","","Check registration success with valid information","","Check registration success with valid information",""
-"broken","Thu Dec 21 12:23:42 WAT 2023","Thu Dec 21 12:23:50 WAT 2023","7950","","feature to test google search functionality","","validate google search is working","","validate google search is working",""
