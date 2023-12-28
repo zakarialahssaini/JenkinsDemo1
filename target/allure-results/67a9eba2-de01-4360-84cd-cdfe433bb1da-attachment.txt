@@ -1,0 +1,1 @@
+Scenario failed! Capturing screenshot: Check_registration_success_with_valid_information_1703755959211.png
