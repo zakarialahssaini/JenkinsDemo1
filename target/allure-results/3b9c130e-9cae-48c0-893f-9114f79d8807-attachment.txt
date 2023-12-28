@@ -1,1 +1,0 @@
-Scenario failed! Capturing screenshot: Check_login_valid_with_valid_information_1703755926505.png

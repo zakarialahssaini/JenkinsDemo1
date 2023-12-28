@@ -1,1 +1,0 @@
-Scenario failed! Capturing screenshot: validate_google_search_is_working_1703755899626.png
